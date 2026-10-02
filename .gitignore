@@ -1,0 +1,35 @@
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+venv/
+.venv/
+backend/venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Generated repositories
+data/repositories/
+backend/data/repositories/
+
+# Runtime state
+data/active_repository.json
+backend/data/active_repository.json
+
+# Vector indexes
+*.faiss
+*.index
